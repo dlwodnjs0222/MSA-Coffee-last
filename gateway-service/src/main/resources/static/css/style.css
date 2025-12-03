@@ -14,7 +14,7 @@ body {
     /* 배경색을 따뜻한 라떼 색상으로 변경하여 흰색 카드와 대비를 줌 */
     background-color: var(--coffee-latte);
     background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png"); /* (선택) 은은한 질감 추가 */
-    color: black;
+    color: #ece0d1;
 }
 
 /* =========================================
@@ -28,9 +28,13 @@ body {
 }
 .navbar-brand {
     font-weight: 800;
-    color: black;
+
     font-size: 1.5rem;
     letter-spacing: -0.5px;
+}
+
+.navbar-brand:hover {
+    color: black;
 }
 .nav-link {
     color: black;
@@ -50,7 +54,7 @@ body {
    2. 컨텐츠 카드 (흰색 박스)
    ========================================= */
 .content-card {
-    background: black;
+    background: #ece0d1;
     border-radius: 16px;
     /* 카드가 배경에서 확 떠오르도록 갈색 톤 그림자 적용 */
     box-shadow: 0 10px 25px rgba(90, 63, 45, 0.15);
